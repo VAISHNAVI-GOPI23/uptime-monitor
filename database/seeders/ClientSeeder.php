@@ -14,14 +14,8 @@ class ClientSeeder extends Seeder
     {
         // specific user
         $client = \App\Models\Client::factory()->create([
-            'name' => 'Vaishnavi G',
-            'email' => 'vaishnavi.g@gmail.com',
-        ]);
-
-        // Add some dummy websites for this user
-        $client->websites()->createMany([
-            ['url' => 'https://google.com', 'is_up' => true],
-            ['url' => 'https://example.com', 'is_up' => true],
+            'name' => 'Vaishnavi Gopi',
+            'email' => 'vaishnavigopi13@gmail.com',
         ]);
     }
 }
